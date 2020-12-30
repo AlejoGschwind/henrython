@@ -5,6 +5,12 @@
           box-sizing: border-box;
 }
 
+body {
+  padding: 2vh 0;
+  display: block;
+  background: #38383a;
+}
+
 .Button__wrapper {
   background: #323232;
   color: white;
@@ -13,6 +19,9 @@
 }
 
 .RegisterForm__wrapper {
+  margin: 10px auto;
+  width: 30%;
+  min-width: 320px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,9 +29,36 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 2% 5%;
+  background: #6b6969;
+}
+
+.RegisterForm__wrapper i {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.RegisterForm__wrapper i#icono-login {
+  font-size: 36px;
+  color: goldenrod;
+}
+
+.RegisterForm__wrapper input {
+  color: white;
+}
+
+.RegisterForm__wrapper select {
+  text-align-last: center;
+  margin-bottom: 10px;
+}
+
+.RegisterForm__wrapper select:hover {
+  color: rgba(18, 139, 113, 0.698);
 }
 
 .RegisterForm__error_msg {
-  color: red;
+  color: rgba(255, 0, 0, 0.459);
+  text-shadow: 0.2px 0.2px #790202;
+  font-weight: 500;
 }
 /*# sourceMappingURL=styles.css.map */

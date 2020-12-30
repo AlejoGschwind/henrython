@@ -1,8 +1,36 @@
 .RegisterForm__wrapper {
+  margin: 10px auto;
+  width: 30%;
+  min-width: 320px;
   display: flex;
   flex-direction: column;
-}
+  padding:2% 5%;
+  background: rgb(107, 105, 105);
+
+    i{
+      text-align: center;
+      padding-bottom: 5%;
+      &#icono-login{
+        font-size: 36px;
+        color: goldenrod;
+      }
+    }
+
+    input{
+      color: white;
+    }
+
+    select{
+      text-align-last: center;
+      margin-bottom: 10px;
+      &:hover{
+        color: rgba(18, 139, 113, 0.698);
+      }
+    }
+  }
 
 .RegisterForm__error_msg {
-  color: red;
+  color: rgba(255, 0, 0, 0.459);
+  text-shadow: 0.2px 0.2px rgb(121, 2, 2);
+  font-weight: 500;
 }
