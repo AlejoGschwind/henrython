@@ -1,16 +1,12 @@
 import React from 'react';
 
 import Button from "../Button";
+import RegisterForm from "../RegisterForm";
 
 function App() {
   return (
     <div className="App">
-      <Button>
-        Enviar
-      </Button>
-      <Button>
-        Login !!
-      </Button>
+      <RegisterForm />
     </div>
   );
 }

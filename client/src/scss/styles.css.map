@@ -1,11 +1,12 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB;;AAED,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,GAAG;CAChB;;ACRD,AAAA,gBAAgB,CAAC;EACf,UAAU,EAAE,OAAO;EACnB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,KAAK;CACb",
+    "mappings": "ACAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB;;ACJD,AAAA,gBAAgB,CAAC;EACf,UAAU,EAAE,OAAO;EACnB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,KAAK;CACb;;AELD,AAAA,sBAAsB,CAAC;EACrB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CACvB;;AAED,AAAA,wBAAwB,CAAC;EACvB,KAAK,EAAE,GAAG;CACX",
     "sources": [
         "styles.scss",
         "../components/App/_App.scss",
         "../components/Button/_Button.scss",
-        "../components/Navbar/_Navbar.scss"
+        "../components/Navbar/_Navbar.scss",
+        "../components/RegisterForm/_RegisterForm.scss"
     ],
     "names": [],
     "file": "styles.css"

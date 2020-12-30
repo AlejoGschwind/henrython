@@ -5,14 +5,24 @@
           box-sizing: border-box;
 }
 
-body {
-  background: red;
-}
-
 .Button__wrapper {
   background: #323232;
   color: white;
   height: 50px;
   width: 250px;
+}
+
+.RegisterForm__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.RegisterForm__error_msg {
+  color: red;
 }
 /*# sourceMappingURL=styles.css.map */
