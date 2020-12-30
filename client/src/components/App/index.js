@@ -1,4 +1,6 @@
-const { default: Button } = require("../Button");
+import React from 'react';
+
+import Button from "../Button";
 
 function App() {
   return (
