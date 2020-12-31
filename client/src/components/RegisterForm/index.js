@@ -54,7 +54,7 @@ const RegisterForm = () => {
       </label>
 
       <label>
-        Repita la contraseña:
+        Repetir contraseña:
         <input name="repassword" type="password" ref={register({
         required: true,
         validate: value => value === password.current || "Las contraseñas no coinciden."

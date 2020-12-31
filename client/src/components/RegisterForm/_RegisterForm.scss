@@ -5,26 +5,32 @@
   display: flex;
   flex-direction: column;
   padding:2% 5%;
-  background: rgb(107, 105, 105);
+  background: rgb(78, 77, 77);
+  box-shadow: 0px 0px 3px 0px rgb(0, 0, 0);
 
     i{
+      text-shadow: 1px 1px 2px rgb(72, 228, 10);
       text-align: center;
       padding-bottom: 5%;
       &#icono-login{
         font-size: 36px;
-        color: goldenrod;
+        color: rgb(25, 155, 144);
       }
     }
-
+    label{
+      font-size: 14px;
+    }
     input{
       color: white;
     }
 
     select{
+      height: 30px;
       text-align-last: center;
-      margin-bottom: 10px;
+      margin-top: 10px;
+      margin-bottom: 30px;
       &:hover{
-        color: rgba(18, 139, 113, 0.698);
+        font-weight: 500;
       }
     }
   }
